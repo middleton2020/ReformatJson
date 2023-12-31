@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\colin\\source\\repos\\ReformatJson\\ReformatJson\\ReformatJson.csproj",
-        "projectName": "ReformatJson",
+        "projectName": "CM.ReformatJson.Processing",
         "projectPath": "C:\\Users\\colin\\source\\repos\\ReformatJson\\ReformatJson\\ReformatJson.csproj",
         "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\colin\\source\\repos\\ReformatJson\\ReformatJson\\obj\\",

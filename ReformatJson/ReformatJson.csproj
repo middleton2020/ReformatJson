@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Colin Middleton</Authors>
+    <RootNamespace>CM.ReformatJson.Processing</RootNamespace>
+    <AssemblyName>CM.ReformatJson.Processing</AssemblyName>
   </PropertyGroup>
 
 </Project>
