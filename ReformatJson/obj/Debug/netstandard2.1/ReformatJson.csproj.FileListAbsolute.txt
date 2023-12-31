@@ -1,0 +1,10 @@
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\bin\Debug\netstandard2.1\CM.ReformatJson.Processing.deps.json
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\bin\Debug\netstandard2.1\CM.ReformatJson.Processing.dll
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\bin\Debug\netstandard2.1\CM.ReformatJson.Processing.pdb
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.csproj.AssemblyReference.cache
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.AssemblyInfoInputs.cache
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.AssemblyInfo.cs
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.csproj.CoreCompileInputs.cache
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\CM.ReformatJson.Processing.dll
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\CM.ReformatJson.Processing.pdb
