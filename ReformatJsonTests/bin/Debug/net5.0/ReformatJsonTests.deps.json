@@ -1078,8 +1078,16 @@
         }
       },
       "CM.ReformatJson.Processing/1.0.0": {
+        "dependencies": {
+          "JsonTools": "1.0.0"
+        },
         "runtime": {
           "CM.ReformatJson.Processing.dll": {}
+        }
+      },
+      "JsonTools/1.0.0": {
+        "runtime": {
+          "JsonTools.dll": {}
         }
       }
     }
@@ -1707,6 +1715,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "CM.ReformatJson.Processing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonTools/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

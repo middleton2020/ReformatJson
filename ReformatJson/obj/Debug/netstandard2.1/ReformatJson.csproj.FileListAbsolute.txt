@@ -8,3 +8,6 @@ C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\R
 C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.csproj.CoreCompileInputs.cache
 C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\CM.ReformatJson.Processing.dll
 C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\CM.ReformatJson.Processing.pdb
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\bin\Debug\netstandard2.1\JsonTools.dll
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\bin\Debug\netstandard2.1\JsonTools.pdb
+C:\Users\colin\source\repos\ReformatJson\ReformatJson\obj\Debug\netstandard2.1\ReformatJson.csproj.CopyComplete

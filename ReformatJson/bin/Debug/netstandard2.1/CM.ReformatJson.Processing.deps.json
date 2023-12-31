@@ -8,14 +8,27 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "CM.ReformatJson.Processing/1.0.0": {
+        "dependencies": {
+          "JsonTools": "1.0.0"
+        },
         "runtime": {
           "CM.ReformatJson.Processing.dll": {}
+        }
+      },
+      "JsonTools/1.0.0": {
+        "runtime": {
+          "JsonTools.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CM.ReformatJson.Processing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonTools/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

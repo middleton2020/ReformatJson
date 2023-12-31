@@ -100,3 +100,5 @@ C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\obj\Debug\net5.0\Refo
 C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\obj\Debug\net5.0\ref\ReformatJsonTests.dll
 C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\obj\Debug\net5.0\ReformatJsonTests.pdb
 C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\obj\Debug\net5.0\ReformatJsonTests.genruntimeconfig.cache
+C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\bin\Debug\net5.0\JsonTools.dll
+C:\Users\colin\source\repos\ReformatJson\ReformatJsonTests\bin\Debug\net5.0\JsonTools.pdb

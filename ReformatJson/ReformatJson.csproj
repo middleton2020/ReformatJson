@@ -7,4 +7,8 @@
     <AssemblyName>CM.ReformatJson.Processing</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\JsonTools\JsonTools\JsonTools.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1664,11 +1664,24 @@
       "CM.ReformatJson.Processing/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "JsonTools": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CM.ReformatJson.Processing.dll": {}
         },
         "runtime": {
           "bin/placeholder/CM.ReformatJson.Processing.dll": {}
+        }
+      },
+      "JsonTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/JsonTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JsonTools.dll": {}
         }
       }
     }
@@ -6118,6 +6131,11 @@
       "type": "project",
       "path": "../ReformatJson/ReformatJson.csproj",
       "msbuildProject": "../ReformatJson/ReformatJson.csproj"
+    },
+    "JsonTools/1.0.0": {
+      "type": "project",
+      "path": "../../JsonTools/JsonTools/JsonTools.csproj",
+      "msbuildProject": "../../JsonTools/JsonTools/JsonTools.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "JsonTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/JsonTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JsonTools.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JsonTools/1.0.0": {
+      "type": "project",
+      "path": "../../JsonTools/JsonTools/JsonTools.csproj",
+      "msbuildProject": "../../JsonTools/JsonTools/JsonTools.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "JsonTools >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\colin\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\colin\\source\\repos\\JsonTools\\JsonTools\\JsonTools.csproj": {
+              "projectPath": "C:\\Users\\colin\\source\\repos\\JsonTools\\JsonTools\\JsonTools.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
