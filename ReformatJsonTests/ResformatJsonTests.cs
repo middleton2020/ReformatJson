@@ -44,7 +44,7 @@ namespace CM.ReformatJson.Processing.Tests
                             + System.Environment.NewLine + "    \"saturdayDelivery\":true"
                             + System.Environment.NewLine + "}";
 
-            string  resultJson = (string)testReader.MakeReadable(inputJson, "    ", ":");
+            string  resultJson = testReader.MakeReadable(inputJson, "    ", ":");
 
             Assert.AreEqual(testJson, resultJson, false);
         }
@@ -111,7 +111,7 @@ namespace CM.ReformatJson.Processing.Tests
                             + ","
                             + System.Environment.NewLine + "    \"saturdayDelivery\":true"
                             + System.Environment.NewLine + "}";
-            string resultJson = (string)testReader.MakeReadable(inputJson, "    ", ":");
+            string resultJson = testReader.MakeReadable(inputJson, "    ", ":");
 
             Assert.AreEqual(testJson, resultJson, false);
         }
