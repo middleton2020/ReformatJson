@@ -268,7 +268,7 @@ namespace CM.ReformatJson.Processing.Tests
                             + System.Environment.NewLine + "    }"
                             + System.Environment.NewLine + "}";
 
-            string resultJson = (string)testReader.MakeReadable(inputJson, "    ", ": ");
+            string resultJson = testReader.MakeReadable(inputJson, "    ", ": ");
 
             Assert.AreEqual(testJson, resultJson, false);
         }
