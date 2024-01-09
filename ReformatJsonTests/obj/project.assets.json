@@ -1661,7 +1661,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CM.ReformatJson.Processing/1.0.0": {
+      "CM.ReformatJson.Processing/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -6127,7 +6127,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CM.ReformatJson.Processing/1.0.0": {
+    "CM.ReformatJson.Processing/1.0.1": {
       "type": "project",
       "path": "../ReformatJson/ReformatJson.csproj",
       "msbuildProject": "../ReformatJson/ReformatJson.csproj"
@@ -6140,7 +6140,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CM.ReformatJson.Processing >= 1.0.0",
+      "CM.ReformatJson.Processing >= 1.0.1",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",

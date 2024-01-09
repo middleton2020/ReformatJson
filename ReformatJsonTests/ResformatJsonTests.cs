@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CM.ReformatJson.Processing;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CM.ReformatJson.Processing.Tests
 {
@@ -39,7 +33,7 @@ namespace CM.ReformatJson.Processing.Tests
                             + ","
                             + System.Environment.NewLine + "    \"parcels\":1"
                             + ","
-                            + System.Environment.NewLine + "    \"value\":11.50"
+                            + System.Environment.NewLine + "    \"value\":11.5"
                             + ","
                             + System.Environment.NewLine + "    \"saturdayDelivery\":true"
                             + System.Environment.NewLine + "}";
@@ -92,7 +86,7 @@ namespace CM.ReformatJson.Processing.Tests
                             + ","
                             + System.Environment.NewLine + "    \"parcels\":1"
                             + ","
-                            + System.Environment.NewLine + "    \"value\":11.50"
+                            + System.Environment.NewLine + "    \"value\":11.5"
                             + ","
                             + System.Environment.NewLine + "    \"items\":"
                             + "["

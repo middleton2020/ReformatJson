@@ -18,10 +18,18 @@ namespace CM.ReformatJson.Processing
         JsonReader.DeligateCloseArray closeArray;
         JsonReader.DeligateSetBoolean setBoolean;
         JsonReader.DeligateSetDecimal setDecimal;
+        JsonReader.DeligateSetDouble setDouble;
         JsonReader.DeligateSetInteger setInteger;
+        JsonReader.DeligateSetLongInt setLongInt;
         JsonReader.DeligateSetString setString;
         #endregion
 
+        #region Constructors
+        /// <summary>
+        /// Formats the Json to be more easy to read (indent is 4 characters).
+        /// </summary>
+        /// <param name="inpOriginalJson">Json to reformat.</param>
+        /// <returns>A json string, with indents and character returns.</returns>
         public string MakeReadable(string inpOriginalJson)
         {
             try
@@ -34,7 +42,12 @@ namespace CM.ReformatJson.Processing
                 throw;
             }
         }
-
+        /// <summary>
+        /// Formats the Json to be more easy to read (you specify indent).
+        /// </summary>
+        /// <param name="inpOriginalJson">Json to reformat.</param>
+        /// <param name="inpIndentChars">String to use as an indent.</param>
+        /// <returns>A json string, with indents and character returns.</returns>
         public string MakeReadable(string inpOriginalJson, string inpIndentChars)
         {
             try
@@ -47,8 +60,14 @@ namespace CM.ReformatJson.Processing
                 throw;
             }
         }
-
-        public string MakeReadable(string inpOriginalJson, string inpIndentChars, string inpColonChar)
+        /// <summary>
+        /// Formats the Json to be more easy to read (you specify indent).
+        /// </summary>
+        /// <param name="inpOriginalJson">Json to reformat.</param>
+        /// <param name="inpIndentChars">String to use as an indent.</param>
+        /// <param name="inpColonChar">String to use to separate name and value (instead of :).</param>
+        /// <returns>A json string, with indents and character returns.</returns>
+         public string MakeReadable(string inpOriginalJson, string inpIndentChars, string inpColonChar)
         {
             try
             {
@@ -86,6 +105,7 @@ namespace CM.ReformatJson.Processing
                 throw;
             }
         }
+        #endregion
 
         #region FormattingMethods
         /// <summary>
@@ -298,6 +318,33 @@ namespace CM.ReformatJson.Processing
             }
         }
         /// <summary>
+        /// Add a double property to the JSON string.
+        /// </summary>
+        /// <param name="inpName">Name of the property.</param>
+        /// <param name="inpValue">Value of the property.</param>
+        /// <param name="inpObject">The object to which we are adding the property.</param>
+        /// <param name="inpPath">The path of item that is added.</param>
+        /// <returns>The object with the property added.</returns>
+        public object SetDouble(string inpName, double inpValue, object inpObject, string inpPath)
+        {
+            try
+            {
+                string tempString = (string)inpObject;
+
+                // Add the comma (if appropriate) to the end of the previous line.
+                tempString = AddComma(tempString);
+                // Add the new line and indent.
+                tempString += AddIndent(indentChars, indentDepth);
+                tempString += "\"" + inpName + "\"" + colonChar
+                            + Convert.ToString(inpValue);
+                return tempString;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        /// <summary>
         /// Add a integer property to the JSON string.
         /// </summary>
         /// <param name="inpName">Name of the property.</param>
@@ -306,6 +353,33 @@ namespace CM.ReformatJson.Processing
         /// <param name="inpPath">The path of item that is added.</param>
         /// <returns>The object with the property added.</returns>
         public object SetInteger(string inpName, int inpValue, object inpObject, string inpPath)
+        {
+            try
+            {
+                string tempString = (string)inpObject;
+
+                // Add the comma (if appropriate) to the end of the previous line.
+                tempString = AddComma(tempString);
+                // Add the new line and indent.
+                tempString += AddIndent(indentChars, indentDepth);
+                tempString += "\"" + inpName + "\"" + colonChar
+                            + Convert.ToString(inpValue);
+                return tempString;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        /// <summary>
+        /// Add a long integer property to the JSON string.
+        /// </summary>
+        /// <param name="inpName">Name of the property.</param>
+        /// <param name="inpValue">Value of the property.</param>
+        /// <param name="inpObject">The object to which we are adding the property.</param>
+        /// <param name="inpPath">The path of item that is added.</param>
+        /// <returns>The object with the property added.</returns>
+        public object SetLongInt(string inpName, long inpValue, object inpObject, string inpPath)
         {
             try
             {
