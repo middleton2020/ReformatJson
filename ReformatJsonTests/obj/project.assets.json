@@ -1661,11 +1661,11 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CM.ReformatJson.Processing/1.0.1": {
+      "CM.ReformatJson.Processing/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "JsonTools": "1.0.0"
+          "JsonTools": "1.0.1"
         },
         "compile": {
           "bin/placeholder/CM.ReformatJson.Processing.dll": {}
@@ -1674,7 +1674,7 @@
           "bin/placeholder/CM.ReformatJson.Processing.dll": {}
         }
       },
-      "JsonTools/1.0.0": {
+      "JsonTools/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -6127,12 +6127,12 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CM.ReformatJson.Processing/1.0.1": {
+    "CM.ReformatJson.Processing/1.0.2": {
       "type": "project",
       "path": "../ReformatJson/ReformatJson.csproj",
       "msbuildProject": "../ReformatJson/ReformatJson.csproj"
     },
-    "JsonTools/1.0.0": {
+    "JsonTools/1.0.1": {
       "type": "project",
       "path": "../../JsonTools/JsonTools/JsonTools.csproj",
       "msbuildProject": "../../JsonTools/JsonTools/JsonTools.csproj"
@@ -6140,7 +6140,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CM.ReformatJson.Processing >= 1.0.1",
+      "CM.ReformatJson.Processing >= 1.0.2",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",

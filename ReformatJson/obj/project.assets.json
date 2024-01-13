@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "JsonTools/1.0.0": {
+      "JsonTools/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "JsonTools/1.0.0": {
+    "JsonTools/1.0.1": {
       "type": "project",
       "path": "../../JsonTools/JsonTools/JsonTools.csproj",
       "msbuildProject": "../../JsonTools/JsonTools/JsonTools.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "JsonTools >= 1.0.0"
+      "JsonTools >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -32,7 +32,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\colin\\source\\repos\\ReformatJson\\ReformatJson\\ReformatJson.csproj",
       "projectName": "CM.ReformatJson.Processing",
